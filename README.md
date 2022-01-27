@@ -23,26 +23,23 @@ The third CNN  model resulted the highest recall scores of 98.07% and the accura
 
 ## Conclusion 
 
+
 Compared to all models, the highest recall scores of 98.07% was recored on the third CNN model. This implies that, 98.07% of the time the radiologist or the physician could minimize the false negative error. Maximum reduction of false negative error is mandatory to avoid misdiagnosing the patients with Tuberculosis as being healthy, which would lead the patient to spread the bacteria to the healthy population. This in turn helps to spread of tuberculosis. The accuracy socre of 98.66% also indicates, how radiologists/physicians can accurately classify the tuberculosis x-ray image from the normal one. Overall, the model result shows the diagnositc power of deep learning in correctly classifying TB chest x-ray images. Thus, I recommend the radiologists and pulomonlogists to use this model as a primary decision tool in their rountine Tuberculosis screening especially in multidrug resistant tuberculosis. I also recommend the Center for Infectious Disease Imaging (CIDI) at NIAID/ NIH and the World Health Organization to use this information in their Tuberculosis diagnosis gudeline and resrarch agenda.
 
 ## Environment setup detail
 
 
-
-
-
 ## Respository Structure
-
-"""
-├── CXRImageDataData                              <- folder containing saved x-ray images for Main Notebook         
-├── project_presentation.pdf                      <- PDF version of the final project presentation
-├── README.md                                     <- Brief summary of a README file for reviewers 
-├── TB_Image_Classification_ Final_Notebook.ipynb <- Main notebook of the project in Jupyter notebook
+```
+├── CXRImageData                                   <- folder containing saved x-ray images for Main Notebook
+├── project_presentation.pdf                       <- PDF version of the final project presentations
+├── README.md                                      <- Brief summary of a README file for reviewers 
+├── TB_Image_Classification_ Final_Notebook.ipynb  <- Main notebook of the project in Jupyter notebook
+├──                
 ├── 
-├──                    
-├── requirements.txt                              <- Requirements .txt file for reproducibility
-└── requirements.txt                              <- Requirements .txt file for reproducibility
-"""
+└── 
+```
+
 
 
 
