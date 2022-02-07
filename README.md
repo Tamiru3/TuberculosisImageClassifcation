@@ -1,4 +1,5 @@
 # Tuberculosis Chest X-Ray Image Classification: A Deep Learning Approach
+
 ### By: Tamiru Berhanu-Denka
  
 ## Overview
@@ -19,7 +20,11 @@ Modeling was started by using the simple perceptron neural network as a baseline
 
 The third CNN  model resulted the highest recall scores of 98.07% and the accuracy score of 98.66% which is slightly lower than the accuracy socre of 99.18% of the first cnn model. These socre changes could be attributed to the changes I made in this model including, increasing the number of epoches, adding addional layers of the pooling and dropout has enhanced the increase in the overall recall score while maintaining the the realtive higher accuracy score. The trade of between accuracy and recall scores were evaluated in each model and the model with the the maximum ability to find all the tuberculosis cases within a dataset was selected. Therefore, the third CNN model is the model of choice.
 
+"C:\Users\tamev\Pictures\TB vs Normal.jpg"
+
+
 <img width="257" alt="image" src="https://user-images.githubusercontent.com/37712711/151293001-5b3b7b90-054b-4c64-ba14-b16b30e7334f.png">
+
 
 ## Conclusion 
 
@@ -39,9 +44,3 @@ Compared to all models, the highest recall scores of 98.07% was recored on the t
 ├── 
 └── 
 ```
-
-
-
-
-
-
